@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | Some Real Sperm</title>
   </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;background:black;">
     <canvas id="unity-canvas" width=360 height=800 tabindex="-1" style="width: 360px; height: 800px; background: #231F20"></canvas>
-    <script src="Build/Gogun.loader.js"></script>
+    <script src="Build/Golast.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -27,10 +27,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Gogun.data",
-        frameworkUrl: "Build/Gogun.framework.js",
-        workerUrl: "Build/Gogun.worker.js",
-        codeUrl: "Build/Gogun.wasm",
+        dataUrl: "Build/Golast.data",
+        frameworkUrl: "Build/Golast.framework.js",
+        codeUrl: "Build/Golast.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "RocketStudio",
         productName: "Some Real Sperm",
